@@ -92,8 +92,9 @@ draw :- last(n*n), not winner(P): player(P).
 :- not winner(o), not winner(x), not draw .
 
 %:- not draw.
-:- not play(o,2,2,0).
-:- not winner(o).
+%:- not play(o,2,2,0).
+%:- not winner(o).
+
 % %#show used/1.
 % #show winning/2. 
 #show play/4.

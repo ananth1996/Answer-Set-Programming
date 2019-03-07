@@ -1,1 +1,3 @@
 body.
+
+{a; b; c} :- body.
